@@ -6,4 +6,4 @@ My solutions to Wes Bos's [JavaScript30](https://javascript30.com) challenge —
 
 | Day | Project | Demo |
 |-----|---------|------|
-| 01  | [Drum Kit](./01-javascript-drum-kit) | [Live](https://Ameershahkhan.github.io/javascript30/01-javascript-drum-kit/) |
+| 01  | [Drum Kit](./01-javascript-drum-kit) | [Live](https://Ameershahkhan.github.io/Javascript30/01-javascript-drum-kit/) |

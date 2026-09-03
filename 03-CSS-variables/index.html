@@ -1,25 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Update the Values</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-    <h2>Update <span class="h1">CSS</span> variables with <span class="h1">JavaScript</span></h2>
-    <div class="controls">
-        <label for="spacing">Spacing:</label>
-        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+  </head>
+  <body>
+    <h2>
+      Update <span class="h1">CSS</span> variables with
+      <span class="h1">JavaScript</span>
+    </h2>
+    <div class="container">
+      <div class="controls">
+        <div class="input">
+          <label for="spacing">Spacing:</label>
+          <input
+            type="range"
+            name="spacing"
+            min="10"
+            max="200"
+            value="10"
+            data-sizing="px"
+          />
+        </div>
 
-        <label for="blur">Blur: </label>
-        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        <div class="input">
+          <label for="blur">Blur: </label>
+          <input
+            type="range"
+            name="blur"
+            min="0"
+            max="25"
+            value="10"
+            data-sizing="px"
+          />
+        </div>
 
-        <label for="base">Base Color: </label>
-        <input type="color" name="base" value="#ffc600">
+        <div class="input">
+          <label for="base">Base Color: </label>
+          <input type="color" name="base" value="#ffc600" id="color" />
+        </div>
+
+        <div class="input">
+          <label for="size">Image Size: </label>
+          <input
+            type="range"
+            name="size"
+            min="200"
+            max="800"
+            value="400"
+            data-sizing="px"
+            id="image-range"
+          />
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="images.jfif" alt="images" id="image" />
+      </div>
     </div>
-
-    <img src="images.jfif" alt="images">
-</body>
+  </body>
 </html>

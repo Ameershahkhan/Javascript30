@@ -1,7 +1,8 @@
 :root{
     --spacing: 10px;
     --base:#ffc600;
-    --blur: 10px
+    --blur: 10px;
+    --image-size: 400px;
 }
 
 
@@ -21,20 +22,42 @@ body{
     margin-bottom: 50px;
 }
 
+.input{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    gap: 20px;
+}
 img{
     padding: var(--spacing);
     background-color: var(--base);
     filter: blur(var(--blur));
 }
 
+
 .h1{
     color: var(--base);
 }
 
 input{
-    width: 100px;
+    width: 200px;
 }
 
 a{
     text-decoration: none;
+}
+
+label{
+    color: white;
+    display: block;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#color{
+    margin-top: 20px;
 }
